@@ -1,0 +1,35 @@
+header{
+    /* background-color:rgb(122, 61, 17); */
+    background-color:burlywood;
+    /* padding: 20px 0; */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+header h1{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    /* padding: 6px 12px;
+    border-radius: 36px; */
+}
+.banner{
+
+}
+.banner img{
+    width: 100%;
+}
+.banner .welcome{
+    background-color:rgb(66, 29, 3);
+}
+nav{
+    background-color: burlywood;
+    padding: 20px;
+}
+nav li{
+    width: 20%;
+    display: inline-block;
+}
