@@ -1,3 +1,8 @@
+body, ul, li, h1, h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+} /*affects margin on top coffee banner*/
 header{
     /* background-color:rgb(122, 61, 17); */
     background-color:burlywood;
@@ -29,8 +34,8 @@ nav{
     background-color: #F4F4F4;
     padding: 20px;
     position: sticky;
-    top: 84px;
-}
+    top: 38px;
+} /* sticky margin for navbar home/menu/about/contact/where */
 nav ul{
     white-space: nowrap;
     max-width: 1200px;
@@ -43,4 +48,11 @@ nav li{
 nav li a{
     color: black;
     font-family: 'PT Sans', sans-serif;
+}
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+
 }
