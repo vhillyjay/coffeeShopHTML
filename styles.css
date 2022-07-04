@@ -49,6 +49,10 @@ nav li a{
     color: black;
     font-family: 'PT Sans', sans-serif;
 }
+.aboutUs{
+    /* position:static; */
+    
+}
 main{
     max-width: 100%;
     width: 1200px;
@@ -60,7 +64,7 @@ article h3{
     font-size: 48px;
 }
 /* trial */
-section.reservation{
+div.contactUs{
     max-width: 100%;
     width: 1200px;
     margin: 30px auto; /* for refill your mind/main tag*/
@@ -69,13 +73,13 @@ section.reservation{
 }
 /* trial */
 
-.reservation{
+.contactUs{
     text-align: left;
 }
-.reservation h3{
+.contactUs h3{
     font-size: 20px;
 }
-form input{
+form input, textarea{
     margin: 20px 0;
     padding: 10px 20px;
     border-radius: 20px;
@@ -84,4 +88,51 @@ footer{
     text-align: center;
     background: #F4F4F4;
     padding: 1px;
+}
+
+/*no arrow*/
+.no-arrow {
+    -moz-appearance: textfield;
+}
+.no-arrow::-webkit-inner-spin-button {
+    display: none;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.aboutImages{
+    text-align: center;
+    /* margin: 80px 0; */
+    
+}
+.aboutImages li{
+    display: inline-block;
+}
+.coffeeImages{
+    text-align: center;
+    margin: 80px 0;
+}
+.coffeeImages li{
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+}
+.coffeeImages li img{
+    max-width: 100%;
+}
+.menu h3{
+    font-size: 48px;
+}
+.menu{
+    max-width: 100%;
+    width: 1200px;
+    margin: 30px auto; 
+    /*for refill your mind/main tag*/
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.contactUs h3{
+    font-size: 48px;
 }
