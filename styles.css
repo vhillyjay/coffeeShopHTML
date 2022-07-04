@@ -49,10 +49,39 @@ nav li a{
     color: black;
     font-family: 'PT Sans', sans-serif;
 }
-main {
+main{
     max-width: 100%;
     width: 1200px;
-    margin: 80px auto;
+    margin: 30px auto; /* for refill your mind/main tag*/
     padding: 0 40px;
+    box-sizing: border-box;
+}
+article h3{
+    font-size: 48px;
+}
+/* trial */
+section.reservation{
+    max-width: 100%;
+    width: 1200px;
+    margin: 30px auto; /* for refill your mind/main tag*/
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+/* trial */
 
+.reservation{
+    text-align: left;
+}
+.reservation h3{
+    font-size: 20px;
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    background: #F4F4F4;
+    padding: 1px;
 }
