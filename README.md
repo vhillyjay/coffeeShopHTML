@@ -1,2 +1,2 @@
 # coffeeShopHTML
- portfolio trial using HTML
+ HTML Portfolio 1
