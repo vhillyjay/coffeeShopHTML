@@ -34,7 +34,7 @@ nav{
     background-color: #F4F4F4;
     padding: 20px;
     position: sticky;
-    top: 42px;
+    top: 41px;
     z-index: 1;
     display: block;
 } /* sticky margin for navbar home/menu/about/contact/where */
