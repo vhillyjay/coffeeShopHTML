@@ -9,7 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
     <title>vh coffee</title>
     <link rel="icon" type="image/x-icon" href="img/coffee-beans.png"> 
-        <!-- temporary icon -->
+        <!-- tab icon -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+        <!-- leaflet map -->
 </head>
 <body>
     <header>
@@ -33,7 +40,7 @@
             <li><a href="#aboutUs" class="">About Us</a></li>
             <li><a href="#menu" class="">Menu</a></li>
             <li><a href="#contactUs" class="">Contact Us</a></li>
-            <li><a href="#where" class="">Where</a></li>
+            <li><a href="#whereToFind" class="">Where</a></li>
         </ul>
     </nav>
 
@@ -89,8 +96,15 @@
             <li>Double Chocolate Latte</li>
             <li>Caramel Macchiatto</li>
             <li>Matcha Macchiatto</li>
-        </ul>
-        
+        </ul>    
+    </div>
+
+    <div id="whereToFind" class="whereToFind">
+        <h3>Where</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium natus voluptas officia reprehenderit, hic voluptatem, deleniti iure eaque nisi illo voluptatum sequi ut quia totam dolores exercitationem quae doloribus.</p>
+        <div id="map" class="map"></div>
+            <!-- doesnt work with zindex on css file -->
+            <!-- if zindex is removed it works but overlaps navbar -->
     </div>
 
     <div id="contactUs" class="contactUs">
@@ -112,22 +126,49 @@
         </form>
     </div>
 
-    <footer>
-        <div>
-            <a href="index.html"><img src="img/coffee-beans.png" style="width: 50px;" alt="vh coffee logo"></a>
-            <ul>
+    <footer class="footer" id="footer">
+        <div class="grid-container">
+            <div class="grid-item footer-logo">
+                <!-- logo inside and name -->
+                <a href="index.html"><img src="img/coffee-beans.png" style="width: 50px;" alt="vh coffee logo">vh coffee</a>
+            </div>
+            <div class="grid-item">
+                other info
+            </div>
+            <div class="grid-item">
+                other info2
+            </div>
+            <div class="grid-item footer-contacts">
+                <!-- contact us info and all -->
+                <ul>
+                    <li><a href="#">Lorem ipsum</a></li>
+                    <li><a href="#">Lorem ipsum</a></li>
+                    <li><a href="#">Lorem ipsum</a></li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                other info3
+            </div>
+            <div class="grid-item">
+                other info4
+            </div>
+            <!-- <a href="index.html"><img src="img/coffee-beans.png" style="width: 50px;" alt="vh coffee logo"></a> -->
+            <!-- <ul>
                 <li><a href="#">Lorem ipsum</a></li>
                 <li><a href="#">Lorem ipsum</a></li>
                 <li><a href="#">Lorem ipsum</a></li>
-            </ul>
-            <a href="https://github.com/vhillyjay"><img src="img/github.png" alt="GitHub" width="20" height="20"></a>
-            <a href="https://facebook.com/vhillyjay"><img src="img/facebook.png" alt="GitHub" width="20" height="20"></a>
-            <a href="https://twitter.com/vhillyjay"><img src="img/twitter.png" alt="GitHub" width="20" height="20"></a>
+            </ul> -->
+            <div class="grid-item footer-social">
+                <a href="https://github.com/vhillyjay"><img src="img/github.png" alt="GitHub" width="20" height="20"></a>
+                <a href="https://facebook.com/vhillyjay"><img src="img/facebook.png" alt="GitHub" width="20" height="20"></a>
+                <a href="https://twitter.com/vhillyjay"><img src="img/twitter.png" alt="GitHub" width="20" height="20"></a>
+            </div>
         </div>
         <div>
             <p class="copyright">Copyright 2022 vh</p>
         </div>
     </footer>
     
+    <script src="map.js"></script>
 </body>
 </html>
