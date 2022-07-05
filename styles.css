@@ -99,6 +99,30 @@ form textarea{
     padding: 5px 5px;
     resize: vertical;
 }
+form .contactSubmit{
+    background-color: burlywood; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+form .contactSubmit2{
+    background-color: burlywood; 
+    color: black; 
+    border: 2px solid burlywood;
+}
+form .contactSubmit2:hover{
+    background-color: white;
+    color: black;
+}
 footer{
     text-align: center;
     background: #F4F4F4;
@@ -259,9 +283,18 @@ footer{
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
 }
-.footer-logo{
+.business-name-logo{
     text-align: left;
 }
+.grid-logo{
+    display: inline-block;
+}
+.grid-name{
+    display: inline-block;
+}
+.grid-name h3{
+    font-size: 30px;
+} /*footer logo*/
 .affiliations{
     text-align: left;
 }
