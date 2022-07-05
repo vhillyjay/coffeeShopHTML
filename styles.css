@@ -62,7 +62,7 @@ nav li a{
 main{
     max-width: 100%;
     width: 1200px;
-    margin: 30px auto; /* for refill your mind/main tag*/
+    margin: 30px auto; /* for aboutus/main tag*/
     padding: 0 40px;
     box-sizing: border-box;
 }
@@ -73,7 +73,7 @@ article h3{
 div.contactUs{
     max-width: 100%;
     width: 1200px;
-    margin: 30px auto; /* for refill your mind/main tag*/
+    margin: 30px auto; 
     padding: 0 40px;
     box-sizing: border-box;
 }
@@ -82,13 +82,22 @@ div.contactUs{
 .contactUs{
     text-align: left;
 }
-.contactUs h3{
-    font-size: 20px;
+form input{
+    max-width: 100%;
+    margin: 10px 0;
+    padding: 5px 5px;
+    
+    /* border-radius: 20px; */
 }
-form input, textarea{
-    margin: 20px 0;
-    padding: 10px 20px;
-    border-radius: 20px;
+form input[type='number']{
+    max-width: 100%;
+    width: 1121px;
+}
+form textarea{
+    max-width: 100%;
+    margin: 10px 0;
+    padding: 5px 5px;
+    resize: vertical;
 }
 footer{
     text-align: center;
@@ -163,6 +172,105 @@ footer{
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
+    /* padding: 20px; */
 
-    padding: 10px;
+    /* in reference to main*/
+    max-width: 100%;
+    width: 1200px;
+    margin: 30px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.footer-contacts li{
+    padding: 3px;
+}
+.footer-contacts a:link{
+    font-family: 'PT Sans', sans-serif;
+    /* font-size: 48px; */
+    text-decoration: none;
+    color: black;
+}
+.footer-contacts a:hover{
+    font-family: 'PT Sans', sans-serif;
+    /* font-size: 48px; */
+    text-decoration: none;
+    color: blue;
+}
+.grid-item ul{
+    list-style-type: none;
+}
+.grid-item li{
+    padding: 3px;
+}
+.grid-item a:link{
+    font-family: 'PT Sans', sans-serif;
+    /* font-size: 48px; */
+    text-decoration: none;
+    color: black;
+}
+.grid-item a:hover{
+    font-family: 'PT Sans', sans-serif;
+    /* font-size: 48px; */
+    text-decoration: none;
+    color: blue;
+}
+.footer-social{
+    /* display: inline-block; */
+    /* margin: auto; */
+    text-align: left;
+}
+.footer-social-github{
+    transition: transform .2s;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-social-github:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.footer-social-facebook{
+    transition: transform .2s;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-social-facebook:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.footer-social-twitter{
+    transition: transform .2s;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-social-twitter:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.footer-social-instagram{
+    transition: transform .2s;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-social-instagram:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.footer-logo{
+    text-align: left;
+}
+.affiliations{
+    text-align: left;
+}
+.terms-of-use{
+    text-align: left;
+}
+.other-contacts{
+    text-align: left;
+}
+.customer-care{
+    text-align: left;
 }
