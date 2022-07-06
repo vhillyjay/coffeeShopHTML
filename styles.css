@@ -17,57 +17,31 @@ header{
     top: 0;
     left: 0;
 }
-.header-logo{
-    display: inline-block;
-}
-.header-title{
-    display: inline-block;
-    /* padding: 10px; */
-}
 .header-title a:link{
     text-decoration: none;
 }
 .header-title h3{
     font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
     /* padding: 6px 12px; */
-    padding-left: 12px;
-    padding-right: 12px;
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
     display: inline;
+    /* max-width: 100%; */
     /* margin-left: 70px; */
 }
 .header-title ul{
-    display: inline-block;
-    /* float: right; */
+    display: inline;
+    list-style-type: none;
+    float: right;
+    margin-top: 15px;
+    font-size: 17px;
 }
 .header-title li{
-    display: inline-block;
-    /* float: right; */
-}
-.header-navigation{
-    display: inline-block;
-    
-    /* padding: 70px; */
-    /* margin-left: 100; */
-}
-.header-navigation  {
-    background-color: #burlywood;
-}
-.header-navigation a:hover{
-    background-color: #ddd;
-  color: black;
-}
-.header-nav{
-    font-family: 'PT Sans', sans-serif;
-    display: inline-block;
-    float: right;
-    font-size: 17px;
-    margin-right: 19px;
-}
-.header-nav li{
     display: inline;
-}
-.header-nav a{
-    /* margin-right: 20px; */
+    /* margin-top: 55px; */
+    margin-right: 50px;
+    /* float: right; */
 }
 .banner{
 
@@ -271,6 +245,9 @@ footer{
     /* font-size: 48px; */
     text-decoration: none;
     color: blue;
+}
+.grid-item strong{
+    font-family: 'PT Sans', sans-serif;
 }
 .grid-item ul{
     list-style-type: none;
