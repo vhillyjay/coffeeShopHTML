@@ -2,24 +2,46 @@ body, ul, li, h1, h3{
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
-} /*affects margin on top coffee banner*/
+} 
+/*affects margin on top coffee banner*/
 header{
-    /* background-color:rgb(122, 61, 17); */
     background-color:burlywood;
-    /* padding: 20px 0; */
-    text-align: center;
-    position: fixed;
+    /* padding: 10px; */
+    /* text-align: center; */
+    /* tentative center */
+    /* position: fixed; */
+    /* tentative */
     width: 100%;
+    /* z-index: 1; */
+    /* tentative */
     top: 0;
     left: 0;
-    z-index: 1;
 }
-header h1{
-    color: black;
+.header-title a:link{
+    text-decoration: none;
+}
+.header-title h3{
     font-family: 'PT Sans', sans-serif;
-    display: inline-block;
-    /* padding: 6px 12px;
-    border-radius: 36px; */
+    font-size: 35px;
+    /* padding: 6px 12px; */
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
+    display: inline;
+    /* max-width: 100%; */
+    /* margin-left: 70px; */
+}
+.header-title ul{
+    display: inline;
+    list-style-type: none;
+    float: right;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.header-title li{
+    display: inline;
+    /* margin-top: 55px; */
+    margin-right: 50px;
+    /* float: right; */
 }
 .banner{
 
@@ -34,7 +56,7 @@ nav{
     background-color: #F4F4F4;
     padding: 20px;
     position: sticky;
-    top: 42px;
+    top: 41px;
     z-index: 1;
     display: block;
 } /* sticky margin for navbar home/menu/about/contact/where */
@@ -65,6 +87,7 @@ main{
     margin: 30px auto; /* for aboutus/main tag*/
     padding: 0 40px;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 article h3{
     font-size: 48px;
@@ -76,6 +99,7 @@ div.contactUs{
     margin: 30px auto; 
     padding: 0 40px;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 /* trial */
 
@@ -171,6 +195,7 @@ footer{
     /*for refill your mind/main tag*/
     padding: 0 40px;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 .contactUs h3{
     font-size: 48px;
@@ -182,6 +207,7 @@ footer{
     /*for refill your mind/main tag*/
     padding: 0 40px;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 .whereToFind h3{
     font-size: 48px;
@@ -219,6 +245,9 @@ footer{
     /* font-size: 48px; */
     text-decoration: none;
     color: blue;
+}
+.grid-item strong{
+    font-family: 'PT Sans', sans-serif;
 }
 .grid-item ul{
     list-style-type: none;
@@ -306,4 +335,10 @@ footer{
 }
 .customer-care{
     text-align: left;
+}
+.carousel-inner img{
+    max-width: 100%;
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
 }
